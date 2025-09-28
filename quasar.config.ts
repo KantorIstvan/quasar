@@ -63,6 +63,7 @@ export default defineConfig((/* ctx */) => {
       // viteVuePluginOptions: {},
 
       vitePlugins: [
+        ['@tailwindcss/vite', {}],
         [
           'vite-plugin-checker',
           {
@@ -85,7 +86,11 @@ export default defineConfig((/* ctx */) => {
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#framework
     framework: {
-      config: {},
+      config: {
+        brand: {
+          onyx: '#343a40'
+        }
+      },
 
       // iconSet: 'material-icons', // Quasar icon set
       // lang: 'en-US', // Quasar language pack
