@@ -15,6 +15,7 @@
     "postinstall": "quasar prepare"
   },
   "dependencies": {
+    "@next/font": "^14.2.15",
     "@quasar/extras": "^1.16.4",
     "@tailwindcss/vite": "^4.1.13",
     "axios": "^1.2.1",
